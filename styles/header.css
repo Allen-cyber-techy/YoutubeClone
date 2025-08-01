@@ -42,11 +42,15 @@
     border-color: rgb(194, 194, 194);
     margin-left: -1px;
     margin-right: 10px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
     
 }
 .search-button,
 .voice-search-button,
-.upload-icon-container{
+.upload-icon-container,
+.youtube-apps,
+.notification-drop{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +58,9 @@ position: relative;
 }
 .search-button .tooltip,
 .voice-search-button .tooltip,
-.upload-icon-container .tooltip{
+.upload-icon-container .tooltip,
+.youtube-apps .tooltip,
+.notification-drop .tooltip{
     font-family: Roboto,Arial;
     position: absolute;
     background-color: gray;
@@ -73,7 +79,9 @@ position: relative;
 }
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip{
+.upload-icon-container:hover .tooltip,
+.youtube-apps:hover .tooltip,
+.notification-drop:hover .tooltip{
     opacity: 1;
 }
 .search-bar{
@@ -81,10 +89,10 @@ position: relative;
     height: 34px;
     padding-left: 10px;
     font-size: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(194, 194, 194);
+    border: 1px solid rgb(194, 194, 194);
     border-radius: 2px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
     box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
     width: 0;
 }
