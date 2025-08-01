@@ -9,6 +9,7 @@
     right: 0;
     z-index: 100;
     background-color: white;
+    border: 0;
     border-bottom-width: 1px;
     border-style: solid;
     border-color: rgb(222, 222, 222);
@@ -61,7 +62,7 @@ position: relative;
 .upload-icon-container .tooltip,
 .youtube-apps .tooltip,
 .notification-drop .tooltip{
-    font-family: Roboto,Arial;
+
     position: absolute;
     background-color: gray;
     color: white;
